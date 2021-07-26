@@ -1,0 +1,55 @@
+#main-navbar a{
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+}
+
+html,body{
+scroll-behavior: smooth;
+}
+
+#main-navbar .z:hover,#main-navbar .active{
+    border-bottom:5px solid black;
+}
+#showcase{
+    background: url("/storage/images/logo/blog-blogger-blogging-cup-4458.jpg");
+    height: 800px;
+    padding-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#showcase h1{
+    padding-top: 150px;
+}
+
+.dark-overlay{/*agar tulisan h1 dan p keliatan*/
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 824px;
+}
+
+#showoff-1 img,#showoff-2 img{
+height: 400px;
+width: 100%;
+}
+
+#team img{
+    height:115px;
+}
+
+#explore{
+    background: url("/storage/images/logo/bg.svg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#footer{
+    border-top: 2px solid black;
+    background: url('/storage/images/logo/Slanted-Gradient.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
